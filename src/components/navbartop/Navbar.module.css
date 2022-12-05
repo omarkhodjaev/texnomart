@@ -1,0 +1,131 @@
+.nav {
+    width: 100%;
+    background-color: #333;
+}
+
+.container {
+    width: 1488px;
+    padding: 0px 32px;
+    margin: 0px auto;
+}
+
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+
+
+.location__btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 8px 0px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+
+
+.location__dropdown{
+    display: none;
+    position: absolute;
+    box-shadow: 0 6px 8px -6px rgb(24 39 75 / 12%), 0 8px 16px -6px rgb(24 39 75 / 8%);
+    border-radius: 6px;
+    padding: 10px 0;
+    width: 175px;
+    background-color: #fff;
+}
+
+.location__dropdown .location__link{
+    color: #333;
+    font-size: 14px;
+    width: 100%;
+    
+}
+.location__dropdown > ul > li{
+    padding: 7px 15px;
+}
+
+.location__dropdown > ul > li:hover {
+    background-color: #FEF3CC;
+}
+
+
+.list > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.list > ul > li {
+    padding:  8px 0px;
+    margin: 0px 16px;
+}
+
+.list > ul > li:nth-child(2){
+    background-color: #545454;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+li{
+    list-style: none;
+}
+
+.location:hover .location__dropdown{
+    display: block;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+}
+
+.call__center_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.call__center{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    border: 1px solid hsla(0,0%,84.7%,.2);
+    border-radius: 150px;
+    padding: 4px 4px;
+    margin-left: 32px;
+}
+
+.language__select{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-weight: bolder;
+
+}
+
+.language__select > option{
+    color: #333;
+}
+
