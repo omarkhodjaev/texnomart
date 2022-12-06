@@ -1,0 +1,167 @@
+.container {
+    width: 1488px;
+    padding: 0px 32px;
+    margin: 0px auto;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    padding: 18px 0 16px;
+}
+
+.header__search{
+    display: flex;
+    border: 2px solid #fbc100;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.header__search__catalog{
+    height: 100%;
+}
+
+.search__catalog__btn{
+    display: flex;
+    background-color: #F7F7F7;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 100%;
+    align-items: center;
+    padding: 9px 12px 9px 16px;
+    cursor: pointer;
+}
+
+.search__catalog__btn > span{
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.search__catalog__dropdown{
+    display: none;
+    position: absolute;
+    box-shadow: 0 6px 8px -6px rgb(24 39 75 / 12%), 0 8px 16px -6px rgb(24 39 75 / 8%);
+    border-radius: 6px;
+    padding: 10px 0;
+    max-height: 300px;
+    width: 200px;
+    background-color: #fff;
+    overflow-y: scroll;
+    top:87px
+}
+
+.header__search__catalog:hover .search__catalog__dropdown{
+    display: block;
+}
+
+.search__catalog__dropdown .catalog__link{
+    color: #333;
+    font-size: 14px;
+    width: 100%;
+    
+}
+.search__catalog__dropdown > ul > li{
+    padding: 7px 15px;
+}
+
+.search__catalog__dropdown > ul > li:hover {
+    background-color: #FEF3CC;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+      background: #D5D5D5; 
+      border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background: #c9c8c8; 
+}
+
+.search__left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search__left > input{
+  height: 100%;  
+  border: none;
+  outline: none;
+  font-size: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.search__left > .search__micro__btn {
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.search__left > button:hover .search__micro{
+    color: #FF7878;
+}
+
+.search__micro {
+    width: 24px;
+    height: 24px;
+    color: #c9c8c8;
+}
+
+.search__icon__btn{
+    height: 100%;
+    background-color: #fbc100;
+    border: 1px solid #fbc100;
+    width: 47px;
+    cursor: pointer;
+}
+
+.search__icon{
+    font-size: 24px;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.header__right > a  {
+    margin-left: 19px;
+    color: #333;
+    text-align: center;
+    display: block;
+}
+.header__right > button{
+    border: none;
+    margin-left: 19px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header__right svg{
+    font-size: 24px;
+}
+
+.header__right  span{
+    font-size: 14px;
+    font-weight: bold;
+}
