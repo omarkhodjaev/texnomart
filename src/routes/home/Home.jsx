@@ -1,7 +1,9 @@
 import React from 'react';
-import Navbar from '../../components/HeaderTop/Navbar';
+import Navbar from '../../components/headerTop/Navbar';
 import HeaderCenter from '../../components/headerCenter/HeaderCenter';
 import HeaderBottom from '../../components/headerBottom/HeaderBottom';
+import Banner from '../../components/banner/Banner';
+import Brands from '../../components/brandsSlide/Brands';
 
 const Home = () => {
   document.title = "Home"
@@ -10,6 +12,8 @@ const Home = () => {
         <Navbar/>
         <HeaderCenter/>
         <HeaderBottom/>
+        <Banner/>
+        <Brands/>
     </div>
   )
 }
