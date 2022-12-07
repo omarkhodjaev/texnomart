@@ -7,14 +7,16 @@ import {BsBoxSeam} from "react-icons/bs";
 import {SlUser,SlBasket} from "react-icons/sl";
 import {RiScalesFill} from "react-icons/ri";
 import {Link} from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const HeaderCenter = () => {
+  const { t } = useTranslation(["home"]);
   return (
     <header>
       <div className={c.container}>
         <div className={c.header__center}>
-
-          <Link to="/">
+          
+          <Link className={c.Header__logo} to="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="230"
@@ -66,151 +68,117 @@ const HeaderCenter = () => {
           </Link>
 
           <div className={c.header__search}>
-
             <div className={c.header__search__catalog}>
               <button className={c.search__catalog__btn}>
-
-                <span>Barcha Imkoniyatlar</span>
-                <IoChevronDown/>
-
+                <span>{t("Barcha Imkoniyatlar")}</span>
+                <IoChevronDown />
               </button>
               <div className={c.search__catalog__dropdown}>
                 <ul>
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Barcha kategoriyalar
+                    <a className={c.catalog__link} href="/">
+                      {t("Barcha kategoriyalar")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Maishiy texnika
+                    <a className={c.catalog__link} href="/">
+                      {t("Maishiy texnika")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Ofis jihoslari
+                    <a className={c.catalog__link} href="/">
+                      {t("Ofis jihoslari")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Oshxona uchun texnika
+                    <a className={c.catalog__link} href="/">
+                      {t("Oshxona uchun texnika")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Uy uchun idishlar
+                    <a className={c.catalog__link} href="/">
+                      {t("Uy uchun idishlar")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Avtomobil uchun mahsulotlar
+                    <a className={c.catalog__link} href="/">
+                      {t("Avtomobil uchun mahsulotlar")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Iqlim texnikasi
+                    <a className={c.catalog__link} href="/">
+                      {t("Iqlim texnikasi")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Televizor va telekartalar
+                    <a className={c.catalog__link} href="/">
+                      {t("Televizor va telekartalar")}
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className={c.catalog__link}
-                      href="/"
-                    >
-                      Telefon Gadjetlar
+                    <a className={c.catalog__link} href="/">
+                      {t("Telefon Gadjetlar")}
                     </a>
                   </li>
-
                 </ul>
               </div>
             </div>
 
             <div className={c.search__left}>
-                <input  type="search"/>
-                <button className={c.search__micro__btn}>
-                  <HiOutlineMicrophone 
-                  className={c.search__micro}/>
-                </button>
+              <input type="search" />
+              <button className={c.search__micro__btn}>
+                <HiOutlineMicrophone className={c.search__micro} />
+              </button>
             </div>
-            
-            <button className={c.search__icon__btn}>
-              <BiSearch className={c.search__icon}/>
-            </button>
 
+            <button className={c.search__icon__btn}>
+              <BiSearch className={c.search__icon} />
+            </button>
           </div>
 
           <div className={c.header__right}>
-              <Link to="/">
-                <div>
-                  <BsBoxSeam/>
-                </div>
-                <span>Buyurtma Holati</span>
-              </Link>
+            <Link to="/">
+              <div>
+                <BsBoxSeam />
+              </div>
+              <span>{t("Buyurtma Holati")}</span>
+            </Link>
 
-              <button to="/">
-                <div>
-                  <SlUser/>
-                </div>
-                <span>Kirish</span>
-              </button>
+            <button to="/">
+              <div>
+                <SlUser />
+              </div>
+              <span>{t("Kirish")}</span>
+            </button>
 
-              <Link to="/">
-                <div>
-                  <RiScalesFill/>
-                </div>
-                <span>Taqoslash</span>
-              </Link>
+            <Link to="/">
+              <div>
+                <RiScalesFill />
+              </div>
+              <span>{t("Taqoslash")}</span>
+            </Link>
 
-              <Link to="/">
-                <div>
-                  <BiHeart/>
-                </div>
-                <span>Sevimlilar</span>
-              </Link>
+            <Link to="/">
+              <div>
+                <BiHeart />
+              </div>
+              <span>{t("Sevimlilar")}</span>
+            </Link>
 
-              <button to="/">
-                <div>
-                  <SlBasket/>
-                </div>
-                <span>Savatcha</span>
-              </button>
-              
+            <button to="/">
+              <div>
+                <SlBasket />
+              </div>
+              <span>{t("Savatcha")}</span>
+            </button>
           </div>
         </div>
       </div>

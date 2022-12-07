@@ -10,6 +10,12 @@
     padding: 18px 0 16px;
 }
 
+.Header__logo{
+    margin-right: 25px;
+    max-width: 250px;
+    padding-bottom: 10px;
+}
+
 .header__search{
     display: flex;
     border: 2px solid #fbc100;
@@ -50,7 +56,6 @@
     width: 200px;
     background-color: #fff;
     overflow-y: scroll;
-    top:87px
 }
 
 .header__search__catalog:hover .search__catalog__dropdown{
