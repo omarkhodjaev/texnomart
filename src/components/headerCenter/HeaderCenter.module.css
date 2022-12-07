@@ -1,3 +1,11 @@
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+
 .container {
     width: 1488px;
     padding: 0px 32px;
@@ -8,6 +16,7 @@
     display: flex;
     align-items: center;
     padding: 18px 0 16px;
+
 }
 
 .Header__logo{
@@ -56,6 +65,7 @@
     width: 200px;
     background-color: #fff;
     overflow-y: scroll;
+    z-index: 2;
 }
 
 .header__search__catalog:hover .search__catalog__dropdown{
