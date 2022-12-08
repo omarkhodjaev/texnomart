@@ -1,5 +1,5 @@
 import React from 'react';
-// import Navbar from '../../components/headerTop/Navbar';
+import Navbar from '../../components/HeaderTop/Navbar';
 import HeaderCenter from '../../components/headerCenter/HeaderCenter';
 import HeaderBottom from '../../components/headerBottom/HeaderBottom';
 import Banner from '../../components/banner/Banner';
@@ -9,7 +9,7 @@ const Home = () => {
   document.title = "Home"
   return (
     <div>
-        {/* <Navbar/> */}
+        <Navbar/>
         <HeaderCenter/>
         <HeaderBottom/>
         <Banner/>

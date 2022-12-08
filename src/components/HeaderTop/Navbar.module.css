@@ -84,14 +84,11 @@
 }
 
 a{
-    text-decoration: none;
     color: #fff;
     font-size: 13px;
 }
 
-li{
-    list-style: none;
-}
+
 
 .location:hover .location__dropdown{
     display: block;
