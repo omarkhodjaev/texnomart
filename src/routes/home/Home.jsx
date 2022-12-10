@@ -4,6 +4,7 @@ import HeaderCenter from '../../components/headerCenter/HeaderCenter';
 import HeaderBottom from '../../components/headerBottom/HeaderBottom';
 import Banner from '../../components/banner/Banner';
 import Brands from '../../components/brandsSlide/Brands';
+import Category from '../../components/categorySlide/Category';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <HeaderBottom/>
         <Banner/>
         <Brands/>
+        <Category/>
     </div>
   )
 }
