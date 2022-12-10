@@ -1,0 +1,63 @@
+.container {
+    width: 1488px;
+    padding: 0px 32px;
+    margin: 0px auto;
+}
+
+.installment-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-radius: 6px;
+    border: 1px solid #ececec;
+}
+.title{
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.installment-link {
+    max-width: 20%;
+    padding: 0 16px;
+    border-left: 1px solid #ececec;
+    min-height: 160px;
+    width: 100%;
+}
+
+.installment-link:first-child {
+    border-left: 0;
+}
+
+.installment-link .info-img {
+    margin: 0 auto 18px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #f7f7f7;
+
+}
+
+.installment-link h1 {
+    line-height: 110%;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.installment-link .desc {
+    max-width: 225px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}

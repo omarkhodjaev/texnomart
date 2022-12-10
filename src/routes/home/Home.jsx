@@ -6,6 +6,7 @@ import Banner from '../../components/banner/Banner';
 import Brands from '../../components/brandsSlide/Brands';
 import Category from '../../components/categorySlide/Category';
 import AppBanner from "../../components/app-banner/AppBanner";
+import Installment from '../../components/installment-info/Installment';
 
 const Home = () => {
   document.title = "Home"
@@ -18,6 +19,7 @@ const Home = () => {
         <Brands/>
         <Category/>
         <AppBanner/>
+        <Installment/>
     </div>
   )
 }
