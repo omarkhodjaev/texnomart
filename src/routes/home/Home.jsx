@@ -7,6 +7,7 @@ import Brands from '../../components/brandsSlide/Brands';
 import Category from '../../components/categorySlide/Category';
 import AppBanner from "../../components/app-banner/AppBanner";
 import Installment from '../../components/installment-info/Installment';
+import Footer from '../../components/footer/Footer';
 
 const Home = () => {
   document.title = "Home"
@@ -20,6 +21,7 @@ const Home = () => {
         <Category/>
         <AppBanner/>
         <Installment/>
+        <Footer/>
     </div>
   )
 }

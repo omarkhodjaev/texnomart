@@ -1,0 +1,132 @@
+footer{
+    background-color: #333333;
+    margin-top: 50px;
+}
+footer > .container{
+    padding: 44px 32px 24px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #575757;
+}
+
+.footer-left{
+    padding-bottom: 16px;
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.question {
+    margin-bottom: 14px;
+    line-height: 16px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-content a {
+    font-size: 28px;
+    line-height: 110%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-social li{
+    width: 40px;
+    height: 40px;
+    background-color: #545454;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social svg{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.footer-address{
+    margin-top: 34px;
+    display: block;
+    color: #fff;
+    letter-spacing: .2px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.menu-link > a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: .2px;
+}
+
+.bonus_tlink{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    border: 2px dashed hsla(0,0%,84.7%,.2);
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    margin-top: 32px;
+    padding: 13px;
+}
+
+.bonus_tlink svg{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.footer__alltext{
+    text-align: left;
+    max-width: 600px;
+    font-size: 12px;
+    line-height: 140%;
+    color: hsla(0,0%,100%,.7);
+    letter-spacing: .2px;
+}
+
+.footer-payment{
+    display: flex;
+    gap: 8px;
+}
+
+
+
+
+
+
