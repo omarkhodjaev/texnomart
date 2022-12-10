@@ -5,12 +5,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "./Banner.css"
+import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
   return (
     <div className='bannerwrapper'>
-     <Swiper
+     <Swiper 
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -24,9 +25,9 @@ const Banner = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="https://texnomart.uz/_ipx/f_webp,q_100,s_1920x400/https://backend.texnomart.uz/uploads/slides/2617201920kr.webp" alt="Img" /></SwiperSlide>
-        <SwiperSlide><img src="https://texnomart.uz/_ipx/f_webp,q_100,s_1920x400/https://backend.texnomart.uz/uploads/slides/8794121920kr.webp" alt="Img" /></SwiperSlide>
-        <SwiperSlide><img src="https://texnomart.uz/_ipx/f_webp,q_100,s_1920x400/https://backend.texnomart.uz/uploads/slides/5247261920kr.webp" alt="Img" /></SwiperSlide>
+        <SwiperSlide><Link to="/"><img src="https://texnomart.uz/_ipx/f_webp,q_100,s_1920x400/https://backend.texnomart.uz/uploads/slides/2617201920kr.webp" alt="Img" /></Link></SwiperSlide>
+        <SwiperSlide><Link to="/"><img src="https://texnomart.uz/_ipx/f_webp,q_100,s_1920x400/https://backend.texnomart.uz/uploads/slides/8794121920kr.webp" alt="Img" /></Link></SwiperSlide>
+        <SwiperSlide><Link to="/"><img src="https://texnomart.uz/_ipx/f_webp,q_100,s_1920x400/https://backend.texnomart.uz/uploads/slides/5247261920kr.webp" alt="Img" /></Link></SwiperSlide>
       </Swiper>
     </div>
   );

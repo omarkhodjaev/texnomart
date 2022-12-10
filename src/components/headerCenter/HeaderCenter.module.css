@@ -37,6 +37,7 @@ header{
 
 .header__search__catalog{
     height: 100%;
+    width: 25%;
 }
 
 .search__catalog__btn{

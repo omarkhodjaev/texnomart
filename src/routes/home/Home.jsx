@@ -5,6 +5,7 @@ import HeaderBottom from '../../components/headerBottom/HeaderBottom';
 import Banner from '../../components/banner/Banner';
 import Brands from '../../components/brandsSlide/Brands';
 
+
 const Home = () => {
   document.title = "Home"
   return (

@@ -33,7 +33,7 @@
   height: 100%;
   object-fit: cover;
 }
-.swiper-button-prev {
+.mySwiper .swiper-button-prev {
   background-image: url("../../assets/image/prev.png");
   background-repeat: no-repeat;
   background-size: 40% auto;
@@ -49,7 +49,7 @@
   transform: translateY(-50%);
 }
 
-.swiper-button-next {
+.mySwiper .swiper-button-next {
   background-image: url("../../assets/image/next.png");
   background-repeat: no-repeat;
   background-size: 40% auto;
