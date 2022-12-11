@@ -21,7 +21,7 @@
 }
 
 .catalog__link img {
-  width: 44px;
+  width: 44px !important;
   height: 44px;
   display: flex;
   justify-content: flex-start;

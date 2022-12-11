@@ -1,0 +1,156 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.product-swiper .swiper-button-prev {
+    background-image: url("../../assets/image/prev.png");
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    background-position: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    top: 50%;
+    left: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .product-swiper .swiper-button-next {
+    background-image: url("../../assets/image/next.png");
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    background-position: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    right: 0;
+    top: 50%;
+  }
+
+
+.product-header{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.products .swiper-wrapper {
+  padding: 20px 5px;
+}
+
+.product-card {
+  padding: 10px;
+  text-align: left;
+}
+
+.product-style {
+  border: 1px solid transparent;
+}
+
+.product-style:hover {
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 4px;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+}
+
+.product-img {
+  margin-bottom: 26px;
+}
+
+.product-title {
+  margin-bottom: 8px;
+}
+
+.product-title a {
+  font-weight: 400;
+  color: #373f41;
+}
+
+.product-price {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.product-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-btn {
+  background: #fbc100;
+  border: 2px solid #fbc100;
+  border: none;
+  padding: 7px 12px;
+  height: 38px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.product-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.product-btn span:nth-child(2) {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.action-right button {
+  border: none;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin-left: 16px;
+}
+
+.action-right button svg {
+  font-size: 100%;
+  color: #babac0;
+  width: 20px;
+  height: 24px;
+}
