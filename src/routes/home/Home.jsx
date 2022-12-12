@@ -9,6 +9,7 @@ import Products from '../../components/products/Products';
 import AppBanner from "../../components/app-banner/AppBanner";
 import Installment from '../../components/installment-info/Installment';
 import Footer from '../../components/footer/Footer';
+import Newproducts from '../../components/newproducts/Newproducts';
 
 const Home = () => {
   document.title = "Home"
@@ -22,6 +23,7 @@ const Home = () => {
         <Category/>
         <AppBanner/>
         <Products/>
+        <Newproducts/>
         <Installment/>
         <Footer/>
     </div>
