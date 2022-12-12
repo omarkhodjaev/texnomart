@@ -35,13 +35,13 @@ const Products = () => {
                   <div className="product-style">
                     <div className="product-card">
                       <div className="product-img">
-                        <Link to="/">
+                        <Link to={`${id}`}>
                           <img src={image} alt="Images_empty" />
                         </Link>
                       </div>
                       <div className="product-bottom">
                         <h3 className="product-title">
-                          <Link to="/">{title}</Link>
+                          <Link to={`${id}`}>{title}</Link>
                         </h3>
                         <p className="product-price">{price}$</p>
                         <div className="product-action">

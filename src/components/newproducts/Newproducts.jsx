@@ -29,7 +29,7 @@ const Newproducts = () => {
             className="product-swiper"
           >
             {productData
-              .slice(0, 4)
+              .slice(0, 7)
               .map(({ title, id, price, category: { image } }) => (
                 <SwiperSlide key={id}>
                   <div className="product-style">
@@ -41,7 +41,7 @@ const Newproducts = () => {
                       </div>
                       <div className="product-bottom">
                         <h3 className="product-title">
-                          <Link to="">{title}</Link>
+                          <Link to={`${id}`}>{title}</Link>
                         </h3>
                         <p className="product-price">{price}$</p>
                         <div className="product-action">
