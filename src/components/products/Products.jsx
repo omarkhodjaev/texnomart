@@ -11,6 +11,9 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 const Products = () => {
+  
+
+
   const [productData, setProductData] = useState([]);
   useEffect(() => {
     fetch("https://api.escuelajs.co/api/v1/products")

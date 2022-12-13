@@ -6,6 +6,8 @@ import HeaderCenter from "../../components/headerCenter/HeaderCenter";
 import Navbar from "../../components/headerNavbar/Navbar";
 import "./Pdp.css";
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Pdp = () => {
   const id = useParams();
@@ -43,7 +45,7 @@ const Pdp = () => {
                 <img
                   className="product-images"
                   src={e}
-                  key={id}
+                  key={uuidv4()}
                   style={
                     id === activeImageIndex
                       ? {

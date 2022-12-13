@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import c from "./HeaderBottom.module.css";
 import {BiCategoryAlt} from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import { v4 as uuidv4 } from 'uuid';
 const HeaderBottom = () => {
 
 
@@ -24,7 +25,7 @@ const HeaderBottom = () => {
           <ul className={c.header__bottom__list}>
             {
               categoriesData.slice(0, 10).map(({name,id}) => 
-                <li key={id}><Link to="/">{name}</Link></li>
+                <li key={uuidv4()}><Link to="/">{name}</Link></li>
               )
             }
           </ul>
