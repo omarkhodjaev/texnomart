@@ -32,8 +32,6 @@ const Pdp = () => {
         <ul className="menu-list">
             <li><Link to="/">Bosh sahifa</Link></li>
             <li><Link to="/">Mahsulotlar katalogi</Link></li>
-            {/* <li><Link to="/">Mahsulotlar katalogi</Link></li>        
-            <li><Link to="/">Mahsulotlar katalogi</Link></li>         */}
             <li>{singleData?.title}</li>        
         </ul>
 

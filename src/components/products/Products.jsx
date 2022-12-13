@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { SlBasket } from "react-icons/sl";
 import { BiHeart } from "react-icons/bi";
 import { RiScalesFill } from "react-icons/ri";
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Products = () => {
   const [productData, setProductData] = useState([]);
@@ -31,17 +33,17 @@ const Products = () => {
             {productData
               .slice(0, 10)
               .map(({ title, id, price, category: { image } }) => (
-                <SwiperSlide key={id}>
+                <SwiperSlide key={uuidv4()}>
                   <div className="product-style">
                     <div className="product-card">
                       <div className="product-img">
-                        <Link to={`${id}`}>
+                        <Link to={`/${id}`}>
                           <img src={image} alt="Images_empty" />
                         </Link>
                       </div>
                       <div className="product-bottom">
                         <h3 className="product-title">
-                          <Link to={`${id}`}>{title}</Link>
+                          <Link to={`/${id}`}>{title}</Link>
                         </h3>
                         <p className="product-price">{price}$</p>
                         <div className="product-action">

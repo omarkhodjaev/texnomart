@@ -10,7 +10,7 @@
     justify-content: flex-start;
     align-items: center;
 }
-.menu-list  a , li:last-child{
+.menu-list  a {
     margin: 0 4px 0 0;
     padding: 4px 12px;
     font-size: 14px;
@@ -21,6 +21,14 @@
 }
 
 .menu-list li:last-child{
+    
+    margin: 0 4px 0 0;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+    border-radius: 3px;
+    background-color: #ECECEC;
     background-color: #FEEDB3;
 }
 
@@ -54,4 +62,3 @@
     margin-left: 130px;
     margin-bottom: 12px;
 }
-

@@ -152,12 +152,12 @@ const HeaderCenter = () => {
               <span>{t("Buyurtma Holati")}</span>
             </Link>
 
-            <button to="/">
+            <Link to="/login">
               <div>
                 <SlUser />
               </div>
               <span>{t("Kirish")}</span>
-            </button>
+            </Link>
 
             <Link to="/">
               <div>
