@@ -3,6 +3,7 @@ import { Route , Routes } from 'react-router-dom';
 import Home from './home/Home';
 import Login from "./login/Login";
 import Pdp from "./pdp/Pdp"
+import Signup from './sign-up/Signup';
 
 const index = () => {
   return (
@@ -10,6 +11,7 @@ const index = () => {
        <Routes>
          <Route path='/' element={<Home/>}/>
          <Route path='/login' element={<Login/>}/>
+         <Route path='/signup' element={<Signup/>}/>
          <Route path='/:id' element={<Pdp/>}/>
        </Routes>
     </>

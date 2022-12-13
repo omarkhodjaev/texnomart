@@ -20,7 +20,6 @@ const Pdp = () => {
 
   const [activeImageIndex, setActiveIndex] = useState(0);
 
-  console.log(activeImageIndex);
 
   return (
     <>

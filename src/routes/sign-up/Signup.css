@@ -1,0 +1,84 @@
+.singup-wrapper{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 70px;
+    box-shadow: 0 0 0 1px #d5d8df;
+    border-radius: 6px;
+}
+
+.signup-title{
+    margin-bottom: 10px;
+    color: #fbc100;
+}
+
+.singup-wrapper  input{
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    padding: 0 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    box-shadow: 0 0 0 1px #d5d8df;
+    border: none ;
+    margin-bottom: 10px;
+}
+
+.singup-wrapper .signup-btn{
+    width: 100%;    
+    cursor: pointer;
+    background: #fbc100;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: .4px;
+    border: none;
+    color: #333;
+    padding: 11px 10px;
+    margin-top: 2px;    
+    margin-bottom: 30px;
+}
+
+.signup-go{
+    width: 100%;    
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: .4px;
+    border: none;
+    color: #333;
+    padding: 11px 10px;
+    margin-top: 2px;
+    background-color: #d5d8df;
+}
+
+.login-link{
+    display: block;
+    width: 100%;    
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: .4px;
+    border: none;
+    color: #333;
+    padding: 11px 10px;
+    margin-top: 2px;
+}
+
+.error-text{
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}

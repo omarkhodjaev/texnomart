@@ -64,22 +64,23 @@ const Footer = () => {
             </div>
 
             <div className="menu-wrap">
-              <div className="menu-title">Kompaniya</div>
+              <div className="menu-title">Ma'lumot</div>
               <div className="menu-link">
-                <Link to="/">B2B savdosi</Link>
-                <Link to="/">Biz haqimizda</Link>
-                <Link to="/">Yangiliklar va sharhlar</Link>
-                <Link to="/">IMEI ni tekshirish</Link>
+                <Link to="/">Bepul yetkazib berish</Link>
+                <Link to="/">Bonus tizimi</Link>
+                <Link to="/">Texnomart ishlash</Link>
+                <Link to="/">Shahsiy kabinet</Link>
+                <Link to="/">Aloqa raqami</Link>
               </div>
             </div>
 
             <div className="menu-wrap">
-              <div className="menu-title">Kompaniya</div>
+              <div className="menu-title">Haridorga yordam berish</div>
               <div className="menu-link">
-                <Link to="/">B2B savdosi</Link>
-                <Link to="/">Biz haqimizda</Link>
-                <Link to="/">Yangiliklar va sharhlar</Link>
-                <Link to="/">IMEI ni tekshirish</Link>
+                <Link to="/">Muddatli tolov tizimi</Link>
+                <Link to="/">Maxsulotlarni qaytarish</Link>
+                <Link to="/">Mahsulotlar uchun kafolat</Link>
+                <Link to="/">Ko'p so'raladigan savollar</Link>
               </div>
               <Link to="/" className="bonus_tlink">
                 <FaTelegramPlane />
