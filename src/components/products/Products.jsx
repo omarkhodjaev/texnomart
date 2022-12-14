@@ -8,11 +8,10 @@ import { SlBasket } from "react-icons/sl";
 import { BiHeart } from "react-icons/bi";
 import { RiScalesFill } from "react-icons/ri";
 import { v4 as uuidv4 } from 'uuid';
-
+import { useDispatch } from "react-redux";
 
 const Products = () => {
-  
-
+  const dispatch = useDispatch();  
 
   const [productData, setProductData] = useState([]);
   useEffect(() => {
@@ -39,7 +38,7 @@ const Products = () => {
                 <SwiperSlide key={uuidv4()}>
                   <div className="product-style">
                     <div className="product-card">
-                      <div className="product-img">
+                      <div  className="product-img">
                         <Link to={`/${id}`}>
                           <img src={image} alt="Images_empty" />
                         </Link>
@@ -50,7 +49,10 @@ const Products = () => {
                         </h3>
                         <p className="product-price">{price}$</p>
                         <div className="product-action">
-                          <button className="product-btn">
+                          <button  className="product-btn" onClick={() => {
+                            dispatch({type:"ADD_TO_CART",product: productData})
+                            console.log("1")
+                          }}>
                             <span>
                               <SlBasket />
                             </span>
